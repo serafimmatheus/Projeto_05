@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script src="https://kit.fontawesome.com/6b46d6eaf7.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="Author" content="Matheus Serafim" />
+        <meta name="Description" content="Descrição do site" />
+        <meta name="keyword" content="Palavras,separadas,por,virgula" />
+        <title>Projeto_5 | Loja de carro</title>
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favico.ico" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+
+                <div class="logo">
+                    <a href="ahome.html"><h2>Matheus Serafim</h2></a>
+                    <p>Desenvolvedor Web / Front-End</p>
+                </div><!--logo-->
+
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="ahome.html">Home</a></li>
+                        <li class="selected"><a style="color: red;" href="">Venda</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!--menu-desktop-->
+
+                <div class="logo-mobile"><i class="fa fa-bars"></i></div>
+
+                <nav class="menu-mobile">    
+                    <div class="clear"></div>
+                    <ul>
+                        <li><a href="ahome.html">Home</a></li>
+                        <li class="selected"><a style="color: red;" href="">Venda</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!--menu-mobile-->
+                
+                <div class="clear"></div>
+                
+            </div><!--container-->
+        </header>
+        <div class="fundo-vendas"></div><!--fundo-vendas-->
+
+        <section class="vendas-vitrine">
+            <div class="container">
+                <div class="div-cega">
+                    <div style="top: 185px;" class="ln1"></div><!--ln1-->
+                    <h2>Veículos para venda</h2>
+                </div><!--div-cega-->
+
+                <div class="clear"></div><!--clear-->
+
+                <div class="box-menu-filtro">
+                    <div class="barra-pesquisa">
+                        <h3>Filtre por preços</h3>
+                        <div class="barra-preco">
+                            <div class="barra-preco-cheio"></div><!--barra-preco-cheio-->
+                            <div class="ponteiro-barra"></div><!--ponteiro-barra-->
+                            <div class="valor-pesquisa">
+                                <p class="preco_pesquisa">R$0,00</p>
+                                <p>R$70.000,00</p>
+                            </div><!--valor-pesquisa-->
+                        </div><!--barra-preco-->
+                    </div><!--barra-pesquisa-->
+
+                    <div class="clear"></div><!--clear-->
+
+                    <div class="barra-pesquisa2">
+                        <h3>Filtre por ano</h3>
+                        <form action="">
+                            <div class="form-vendas">
+                                <input type="checkbox" name="" id="item1">
+                                <label for="item1">
+                                    <div class="circle"></div>
+                                </label><!--item1-->
+                                <span>Todas as décadas</span><br>
+                            </div><!--form-vendas-->
+
+                            <div class="form-vendas">
+                                <input type="checkbox" name="" id="item2">
+                                <label for="item2">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>2000 a 2009</span><br>
+                            </div><!--form-vendas-->
+
+                            <div class="form-vendas">
+                                <input type="checkbox" name="" id="item3">
+                                <label for="item3">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>1990 a 1999</span><br>
+                            </div><!--form-vendas-->
+
+                            <div class="form-vendas">
+                                <input type="checkbox" name="" id="item4">
+                                <label for="item4">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>1980 a 1989</span><br>
+                            </div><!--form-vendas-->
+
+                            <div class="form-vendas">
+                                <input type="checkbox" name="" id="item5">
+                                <label for="item5">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>1970 a 1979</span><br>
+                            </div><!--form-vendas-->
+
+                            <div class="form-vendas">
+                                <input type="checkbox" name="" id="item6">
+                                <label for="item6">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>1960 a 1969</span><br>
+                            </div><!--form-vendas-->
+
+                            <div class="form-vendas">
+                                <input type="checkbox" name="" id="item7">
+                                <label for="item7">
+                                    <div class="circle"></div>
+                                </label>
+                                <span>1950 a 1959</span><br>
+                            </div><!--form-vendas-->
+                        </form>
+                    </div><!--barra-pesquisa2-->
+                </div><!--box-menu-filtro-->
+                
+                <div class="box-vitrine-vendas">
+
+                    <div class="box-single-vitrine-vendas">
+                        <div class="vitrine-vendas">
+                            <img src="img/opalacomodoro1978/opalacomodoro1978_3.webp" alt="">
+                            <p>Lorem ipsum dolor.</p>
+                            <p>sit amet, consectetur adipisicing elit.</p>
+                            <p>1990</p>
+                            <div class="btn1"><a href="vendas-single.html">mais detalhes</a></div><!--bnt1-->
+                        </div><!--box-single-vitrine-vendas-->
+                    </div><!--box-vitrine-vendas-->
+                    
+                    <div class="box-single-vitrine-vendas">
+                        <div class="vitrine-vendas">
+                            <img src="img/impalarabodepeixe1960/impala1.webp" alt="">
+                            <p>Lorem ipsum dolor.</p>
+                            <p>sit amet, consectetur adipisicing elit.</p>
+                            <p>1990</p>
+                            <div class="btn1"><a href="vendas-single-2.html">mais detalhes</a></div><!--bnt1-->
+                        </div><!--box-single-vitrine-vendas-->
+                    </div><!--box-vitrine-vendas-->
+
+                    <div class="box-single-vitrine-vendas">
+                        <div class="vitrine-vendas">
+                            <img src="img/ElCamino/ElCamino1.webp" alt="">
+                            <p>Lorem ipsum dolor.</p>
+                            <p>sit amet, consectetur adipisicing elit.</p>
+                            <p>1990</p>
+                            <div class="btn1"><a href="vendas-single-3.html">mais detalhes</a></div><!--bnt1-->
+                        </div><!--box-single-vitrine-vendas-->
+                    </div><!--box-vitrine-vendas-->
+
+                    <div class="box-single-vitrine-vendas">
+                        <div class="vitrine-vendas">
+                            <img src="img/chevyimpala1965/chevy1.webp" alt="">
+                            <p>Lorem ipsum dolor.</p>
+                            <p>sit amet, consectetur adipisicing elit.</p>
+                            <p>1990</p>
+                            <div class="btn1"><a href="vendas-single-4.html">mais detalhes</a></div><!--bnt1-->
+                        </div><!--box-single-vitrine-vendas-->
+                    </div><!--box-vitrine-vendas-->
+                    
+                    <div class="box-single-vitrine-vendas">
+                        <div class="vitrine-vendas">
+                            <img src="img/CapriceSw/CapriceSw1.webp" alt="">
+                            <p>Lorem ipsum dolor.</p>
+                            <p>sit amet, consectetur adipisicing elit.</p>
+                            <p>1990</p>
+                            <div class="btn1"><a href="vendas-single-5.html">mais detalhes</a></div><!--bnt1-->
+                        </div><!--box-single-vitrine-vendas-->
+                    </div><!--box-vitrine-vendas-->
+
+                    <div class="box-single-vitrine-vendas">
+                        <div class="vitrine-vendas">
+                            <img src="img/ImpalaConversivel/ImpalaConversivel1.webp" alt="">
+                            <p>Lorem ipsum dolor.</p>
+                            <p>sit amet, consectetur adipisicing elit.</p>
+                            <p>1990</p>
+                            <div class="btn1"><a href="vendas-single-6.html">mais detalhes</a></div><!--bnt1-->
+                        </div><!--box-single-vitrine-vendas-->
+                    </div><!--box-vitrine-vendas-->
+                    
+                </div><!--box-vitrine-vendas-->
+                
+                <div class="clear"></div><!--clear-->
+                
+            </div><!--container-->
+        </section><!--vendas-vitrine-->
+
+        <footer class="roda-pe">
+            <div class="container">
+
+                <div class="direitos-reservados">
+                    <p>Todos os direitos reservados</p><br>
+                    <p style="text-align: center;">Matheus Serafim</p>
+                </div>
+                <div class="clear"></div>
+            </div><!--container-->
+        </footer><!--roda-pe-->
+
+        
+        <script src="js/JQuery.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/animacao_pgvendas.js"></script>
+        <script src="js/barrapesquisar.js"></script>
+        <script src="js/ScrollSite.js"></script>
+    </body>
+</html>

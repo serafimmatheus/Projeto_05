@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script src="https://kit.fontawesome.com/6b46d6eaf7.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="Author" content="Matheus Serafim" />
+        <meta name="Description" content="Descrição do site" />
+        <meta name="keyword" content="Palavras,separadas,por,virgula" />
+        <title>Projeto_5 | Loja de carro</title>
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favico.ico" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+
+                <div class="logo">
+                    <a href="ahome.html"><h2>Matheus Serafim</h2></a>
+                    <p>Desenvolvedor Web / Front-End</p>
+                </div><!--logo-->
+
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="ahome.html">Home</a></li>
+                        <li><a href="vendas.html">Venda</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li class="selected"><a style="color: red;" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!--menu-desktop-->
+
+                <div class="logo-mobile" onclick="clicar()"><i class="fa fa-bars"></i></div>
+
+                <nav class="menu-mobile">    
+                    <div class="clear"></div>
+                    <ul>
+                        <li><a href="ahome.html">Home</a></li>
+                        <li><a href="vendas.html">Venda</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li class="selected"><a style="color: red;" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!--menu-mobile-->
+
+                <div class="clear"></div>
+            </div><!--container-->
+        </header>
+
+        <div class="fundo-vendas"></div><!--fundo-vendas-->
+
+        <section class="formulario">
+            <div class="container">
+                <div class="entre-em-contato">
+                    <div class="faixa-bg2 ab123"></div><!--faixa-bg-->
+                    <h2>Entre em contato</h2>
+                    <div class="faixa-bg2 ab123"></div><!--faixa-bg-->
+                </div><!--entre-em-contato-->
+
+                <form action="post">
+                    <div class="nome-form">
+                        <input type="text" placeholder="*Nome">
+                    </div>
+
+                    <div class="email-form">
+                        <input type="email" placeholder="*E-mail">
+                        <input type="text" placeholder="*Telefone">
+                    </div>
+
+                    <div class="mensagem-form">
+                        <textarea placeholder="Sua mensagem..."></textarea>
+                    </div>
+
+                    <div class="form-submit">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div><!--container-->
+        </section>
+
+        <footer class="roda-pe roda-pe-contato">
+            <div class="container">
+
+                <div class="direitos-reservados">
+                    <p>Todos os direitos reservados</p><br>
+                    <p style="text-align: center;">Matheus Serafim</p>
+                </div><!--direitos-reservados-->
+                <div class="clear"></div>
+            </div><!--container-->
+        </footer><!--roda-pe-->
+
+        <script src="js/JQuery.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/animacao_pgvendas.js"></script>
+        <script src="js/barrapesquisar.js"></script>
+        <script src="js/ScrollSite.js"></script>
+    </body>
+</html>
